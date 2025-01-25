@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://m8xbglwmegd7"]
+
+[ext_resource type="Script" path="res://speechBubble.cs" id="1_us4ou"]
+[ext_resource type="Texture2D" uid="uid://djhj1lgw34cvh" path="res://sprites/textBoxes/spr_speech_bubble.png" id="2_dh3l1"]
+
+[node name="SpeechBubble" type="Node2D"]
+script = ExtResource("1_us4ou")
+width = 480
+height = 120
+speechTexture = ExtResource("2_dh3l1")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(-10, -10, 10, -10, 10, 10, -10, 10)

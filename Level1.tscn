@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bh2rjufm74vj3"]
+
+[ext_resource type="PackedScene" uid="uid://m8xbglwmegd7" path="res://prefabs/speech_bubble.tscn" id="1_f5rkq"]
+[ext_resource type="PackedScene" uid="uid://cckgte6di0gi3" path="res://prefabs/player.tscn" id="2_hlakv"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="SpeechBubble" parent="." instance=ExtResource("1_f5rkq")]
+
+[node name="Player" parent="." instance=ExtResource("2_hlakv")]
