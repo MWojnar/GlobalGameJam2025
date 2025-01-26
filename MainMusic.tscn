@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://nlcksqni0wf2"]
+
+[ext_resource type="AudioStream" uid="uid://baokvdcafhm4g" path="res://music/Mewnicipal Mayham.wav" id="1_qusgj"]
+[ext_resource type="Script" path="res://MainMusic.cs" id="2_1oll5"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_qusgj")
+autoplay = true
+bus = &"Music"
+script = ExtResource("2_1oll5")

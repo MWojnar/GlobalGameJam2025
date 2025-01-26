@@ -1,10 +1,17 @@
-[gd_scene load_steps=12 format=3 uid="uid://cckgte6di0gi3"]
+[gd_scene load_steps=19 format=3 uid="uid://cckgte6di0gi3"]
 
 [ext_resource type="Script" path="res://PlayerBody.cs" id="1_dyote"]
 [ext_resource type="Texture2D" uid="uid://dtndrtbsfge3r" path="res://sprites/player/spr_cat_fall.png" id="2_2edgk"]
 [ext_resource type="Texture2D" uid="uid://iuup5itwvoff" path="res://sprites/player/spr_cat_stand.png" id="3_fuq7u"]
 [ext_resource type="Texture2D" uid="uid://dcmryd1wr3b23" path="res://sprites/player/spr_cat_jump.png" id="4_7vdxb"]
 [ext_resource type="Texture2D" uid="uid://jvla3xcg8cq0" path="res://sprites/player/spr_cat_walking_strip4.png" id="5_pq7ou"]
+[ext_resource type="AudioStream" uid="uid://bgwwu2w8t5ps1" path="res://sound/Jump_Up.wav" id="6_mvhro"]
+[ext_resource type="AudioStream" uid="uid://bmhtsnn1fs3bk" path="res://sound/Jump_Landing.wav" id="7_3qwai"]
+[ext_resource type="AudioStream" uid="uid://cfuaxivmfcmfr" path="res://sound/Swipe.wav" id="8_lbgd8"]
+[ext_resource type="AudioStream" uid="uid://c2ucljl0fe4ax" path="res://sound/Hurt_1.wav" id="9_ph0fp"]
+[ext_resource type="AudioStream" uid="uid://cgdrmy8hw1wi4" path="res://sound/Hurt_2.wav" id="10_iu5qr"]
+[ext_resource type="AudioStream" uid="uid://cvss20i5jhsj1" path="res://sound/Hurt_3.wav" id="11_p61bn"]
+[ext_resource type="AudioStream" uid="uid://yjorf7hrstp7" path="res://sound/Hurt_4.wav" id="12_8yxm7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3lx3l"]
 size = Vector2(16, 15)
@@ -74,6 +81,7 @@ z_index = 1000
 position = Vector2(0, -150)
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+collision_layer = 2
 script = ExtResource("1_dyote")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
@@ -89,4 +97,34 @@ frame_progress = 0.996684
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 zoom = Vector2(2, 2)
 limit_top = -280
+limit_right = 2530
 limit_bottom = 0
+
+[node name="JumpingSound" type="AudioStreamPlayer" parent="CharacterBody2D"]
+stream = ExtResource("6_mvhro")
+bus = &"SFX"
+
+[node name="LandingSound" type="AudioStreamPlayer" parent="CharacterBody2D"]
+stream = ExtResource("7_3qwai")
+volume_db = 1.0
+bus = &"SFX"
+
+[node name="SwipingSound" type="AudioStreamPlayer" parent="CharacterBody2D"]
+stream = ExtResource("8_lbgd8")
+bus = &"SFX"
+
+[node name="HurtSound1" type="AudioStreamPlayer" parent="CharacterBody2D"]
+stream = ExtResource("9_ph0fp")
+bus = &"SFX"
+
+[node name="HurtSound2" type="AudioStreamPlayer" parent="CharacterBody2D"]
+stream = ExtResource("10_iu5qr")
+bus = &"SFX"
+
+[node name="HurtSound3" type="AudioStreamPlayer" parent="CharacterBody2D"]
+stream = ExtResource("11_p61bn")
+bus = &"SFX"
+
+[node name="HurtSound4" type="AudioStreamPlayer" parent="CharacterBody2D"]
+stream = ExtResource("12_8yxm7")
+bus = &"SFX"

@@ -26,6 +26,12 @@ public partial class Talker : Node2D
 	public Talker respondTo;
 	[Export]
 	public bool wait = false;
+	[Export]
+	public bool waitTrigger = true;
+	[Export]
+	public Font font;
+	[Export]
+	int textSize = 12;
 
 	private AnimatedSprite2D sprite;
 	private int dialogueIndex = 0;
@@ -34,15 +40,20 @@ public partial class Talker : Node2D
 	private DateTime lastDialogueEndTime;
 	private PackedScene speechBubblePrefab;
 	private event Action onFinishedTalking;
+	private AudioStreamPlayer2D currentBla;
+	private bool blaGoing = false;
+	private bool triggerEntered = false;
+	private AudioStreamPlayer2D speechBubbleCreateSound;
 
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
 		sprite = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
+		speechBubbleCreateSound = GetNode<AudioStreamPlayer2D>("SpeechBubbleCreateSound");
 		speechBubblePrefab = (PackedScene)ResourceLoader.Load("res://prefabs/speech_bubble.tscn");
 		if (AnimationFrames != null)
 			sprite.SpriteFrames = AnimationFrames;
-		if (!wait)
+		if (!wait && !waitTrigger)
 			createSpeechBubble(dialogue.FirstOrDefault());
 		if (respondTo != null)
 			respondTo.Subscribe(onReact);
@@ -70,20 +81,42 @@ public partial class Talker : Node2D
 		speechBubble.GlobalPosition = GlobalPosition + speechBubbleOffset;
 		speechBubble.origin = speechBubbleOrigin;
 		speechBubble.text = text;
-		speechBubble.textSize = 12;
+		speechBubble.textSize = textSize;
+		speechBubble.font = font;
 
 		CallDeferred("add_sibling", speechBubble);
 		speechBubble.Subscribe(onTextFinished);
+		speechBubbleCreateSound?.Play();
 
+		startBla();
+	}
+
+	private void startBla()
+	{
 		sprite.Play();
+		blaGoing = true;
+	}
+
+	private void stopBla()
+	{
+		sprite.Frame = 0;
+		sprite.Stop();
+		currentBla?.Stop();
+		blaGoing = false;
 	}
 
 	private void onTextFinished()
 	{
 		waitingBetweenDialogue = true;
-		sprite.Frame = 0;
-		sprite.Stop();
+		stopBla();
 		lastDialogueEndTime = DateTime.Now;
+	}
+
+	private AudioStreamPlayer2D getRandomBla()
+	{
+		Random random = new Random();
+		int randInt = random.Next(5) + 1;
+		return GetNode<AudioStreamPlayer2D>("BlaManSound" + randInt);
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -96,6 +129,16 @@ public partial class Talker : Node2D
 		}
 		else
 		{
+			if (currentBla == null)
+			{
+				if (blaGoing)
+				{
+					currentBla = getRandomBla();
+					currentBla.Play();
+				}
+			}
+			else if (!currentBla.Playing)
+					currentBla = null;
 			if (waitingBetweenDialogue && (DateTime.Now - lastDialogueEndTime).TotalSeconds > pauseBetweenDialogue)
 			{
 				dialogueIndex++;
@@ -120,6 +163,26 @@ public partial class Talker : Node2D
 				}
 				waitingBetweenDialogue = false;
 			}
+		}
+	}
+
+	private void _on_area_2d_body_entered(Node2D body)
+	{
+		trigger();
+	}
+
+	private void _on_animation_trigger()
+	{
+		trigger();
+	}
+
+	private void trigger()
+	{
+		if (!triggerEntered)
+		{
+			triggerEntered = true;
+			if (!wait)
+				createSpeechBubble(dialogue.FirstOrDefault());
 		}
 	}
 

@@ -9,16 +9,21 @@ public partial class PlayerBody : CharacterBody2D
 	public const float HeldJumpTimeLimit = 0.26f;
 
 	private bool inAir = true;
+	private bool prevInAir = true;
 	private bool falling = true;
 	private bool left = false;
 	private bool walking = false;
 	private bool moving = false;
 	private AnimatedSprite2D animatedSprite;
 	private DateTime lastJump;
+	private AudioStreamPlayer jumpingSound;
+	private AudioStreamPlayer landingSound;
 
 	public override void _Ready()
 	{
 		animatedSprite = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
+		jumpingSound = GetNode<AudioStreamPlayer>("JumpingSound");
+		landingSound = GetNode<AudioStreamPlayer>("LandingSound");
 
 		base._Ready();
 	}
@@ -35,7 +40,10 @@ public partial class PlayerBody : CharacterBody2D
 		if (Input.IsActionPressed("ui_accept") && (IsOnFloor() || (DateTime.Now - lastJump).TotalSeconds < HeldJumpTimeLimit))
 		{
 			if (IsOnFloor())
+			{
 				lastJump = DateTime.Now;
+				jumpingSound?.Play();
+			}
 			velocity.Y = JumpVelocity;
 		}
 		inAir = !IsOnFloor();
@@ -71,11 +79,17 @@ public partial class PlayerBody : CharacterBody2D
 			else
 				desiredAnimation = "jump";
 		}
-		else if (walking)
-			desiredAnimation = "walk";
+		else
+		{
+			if (walking)
+				desiredAnimation = "walk";
+			if (prevInAir)
+				landingSound?.Play();
+		}
 
 		if (animatedSprite.Animation != desiredAnimation)
 			animatedSprite.Play(desiredAnimation);
+		prevInAir = inAir;
 
 		base._Process(delta);
 	}

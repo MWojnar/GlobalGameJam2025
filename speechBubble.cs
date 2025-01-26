@@ -99,7 +99,7 @@ public partial class SpeechBubble : Node2D
 			}
 		}
 		DrawTextureRect(speechNubTexture, new Rect2(new Vector2(nubAnchorPosition.X - GlobalPosition.X, topLeftY + height), new Vector2(speechNubTexture.GetWidth(), nubAnchorPosition.Y - GlobalPosition.Y - (topLeftY + height))), false);
-		DrawMultilineString(font, new Vector2(topLeftX + gridWidth, topLeftY + gridHeight + font.GetHeight() / 2), currentText, HorizontalAlignment.Left, maxWidth - gridWidth * 2, textSize, modulate: Color.FromHtml("#000000"));
+		DrawMultilineString(font, new Vector2(topLeftX + gridWidth, topLeftY + gridHeight + font.GetHeight(textSize) / 2), currentText, HorizontalAlignment.Left, maxWidth - gridWidth * 2, textSize, modulate: Color.FromHtml("#000000"));
 	}
 
 	public void Subscribe(Action action)
