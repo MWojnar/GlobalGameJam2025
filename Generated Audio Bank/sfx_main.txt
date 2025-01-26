@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	798817848	man_blabla			\Default Work Unit\man_blabla	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1067850063	Blabla_Man_1	C:\Users\ldr93\OneDrive\Documents\WwiseProjects\Chatty Catty\.cache\B8\{B845A48D-CA37-1BCC-C3EE-E99327F95B70}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_test_pack\SFX_test_pack\Blabla_Man_1		765620
+

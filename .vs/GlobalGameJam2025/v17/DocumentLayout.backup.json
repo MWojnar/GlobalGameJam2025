@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\",
+  "WorkspaceRootPath": "C:\\Users\\ldr93\\OneDrive\\Documents\\GitHub\\GlobalGameJam2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\talker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\ldr93\\onedrive\\documents\\github\\globalgamejam2025\\talker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:talker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\speechbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\ldr93\\onedrive\\documents\\github\\globalgamejam2025\\speechbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:speechbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\ldr93\\onedrive\\documents\\github\\globalgamejam2025\\playerbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:playerbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\ldr93\\onedrive\\documents\\github\\globalgamejam2025\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\alternatingtalker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\ldr93\\onedrive\\documents\\github\\globalgamejam2025\\alternatingtalker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:alternatingtalker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\playerbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:playerbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AlternatingTalker.cs",
-              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\AlternatingTalker.cs",
-              "RelativeDocumentMoniker": "AlternatingTalker.cs",
-              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\AlternatingTalker.cs",
-              "RelativeToolTip": "AlternatingTalker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Talker.cs",
+              "DocumentMoniker": "C:\\Users\\ldr93\\OneDrive\\Documents\\GitHub\\GlobalGameJam2025\\Talker.cs",
+              "RelativeDocumentMoniker": "Talker.cs",
+              "ToolTip": "C:\\Users\\ldr93\\OneDrive\\Documents\\GitHub\\GlobalGameJam2025\\Talker.cs",
+              "RelativeToolTip": "Talker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T22:20:17.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Player.cs",
-              "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Player.cs",
-              "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:20:35.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerBody.cs",
-              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\PlayerBody.cs",
-              "RelativeDocumentMoniker": "PlayerBody.cs",
-              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\PlayerBody.cs",
-              "RelativeToolTip": "PlayerBody.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:20:33.67Z",
+              "WhenOpened": "2025-01-26T02:54:58.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SpeechBubble.cs",
-              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\SpeechBubble.cs",
+              "DocumentMoniker": "C:\\Users\\ldr93\\OneDrive\\Documents\\GitHub\\GlobalGameJam2025\\SpeechBubble.cs",
               "RelativeDocumentMoniker": "SpeechBubble.cs",
-              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\SpeechBubble.cs",
+              "ToolTip": "C:\\Users\\ldr93\\OneDrive\\Documents\\GitHub\\GlobalGameJam2025\\SpeechBubble.cs",
               "RelativeToolTip": "SpeechBubble.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAwwCMAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T20:20:30.706Z",
+              "WhenOpened": "2025-01-26T02:54:57.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Talker.cs",
-              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Talker.cs",
-              "RelativeDocumentMoniker": "Talker.cs",
-              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Talker.cs",
-              "RelativeToolTip": "Talker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PlayerBody.cs",
+              "DocumentMoniker": "C:\\Users\\ldr93\\OneDrive\\Documents\\GitHub\\GlobalGameJam2025\\PlayerBody.cs",
+              "RelativeDocumentMoniker": "PlayerBody.cs",
+              "ToolTip": "C:\\Users\\ldr93\\OneDrive\\Documents\\GitHub\\GlobalGameJam2025\\PlayerBody.cs",
+              "RelativeToolTip": "PlayerBody.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T19:11:29Z",
+              "WhenOpened": "2025-01-26T02:54:55.853Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\ldr93\\OneDrive\\Documents\\GitHub\\GlobalGameJam2025\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\ldr93\\OneDrive\\Documents\\GitHub\\GlobalGameJam2025\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:54:54.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlternatingTalker.cs",
+              "DocumentMoniker": "C:\\Users\\ldr93\\OneDrive\\Documents\\GitHub\\GlobalGameJam2025\\AlternatingTalker.cs",
+              "RelativeDocumentMoniker": "AlternatingTalker.cs",
+              "ToolTip": "C:\\Users\\ldr93\\OneDrive\\Documents\\GitHub\\GlobalGameJam2025\\AlternatingTalker.cs",
+              "RelativeToolTip": "AlternatingTalker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:54:49.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

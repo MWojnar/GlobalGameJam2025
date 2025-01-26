@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3023356346",
+    "Type": "User",
+    "GUID": "{1A8BEDB9-562B-43F5-985E-8FEE14C38481}",
+    "Language": "SFX",
+    "Hash": "{6DF3CD48-6401-1970-6E49-5B25878525BF}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\sfx_main",
+    "ShortName": "sfx_main",
+    "Path": "sfx_main.bnk",
+    "Media": [
+     {
+      "Id": "1067850063",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_test_pack\\SFX_test_pack\\Blabla_Man_1.wav",
+      "CachePath": "B8/{B845A48D-CA37-1BCC-C3EE-E99327F95B70}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "798817848",
+      "Name": "man_blabla",
+      "ObjectPath": "\\Events\\Default Work Unit\\man_blabla",
+      "GUID": "{9F737D58-E566-4519-A014-B56B59FEA66E}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.339705",
+      "DurationMax": "4.339705",
+      "MediaRefs": [
+       {
+        "Id": "1067850063"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{02F194E9-043B-01EA-BA90-0B19746873A6}"
+ }
+}

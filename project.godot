@@ -31,3 +31,7 @@ project/assembly_name="GlobalGameJam2025"
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
+
+[wwise]
+
+common_user_settings/root_output_path="res://Generated Audio Bank"
