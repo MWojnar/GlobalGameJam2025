@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" load_steps=4 format=3 uid="uid://blo1givwu625y"]
+
+[ext_resource type="Texture2D" uid="uid://cjox1dvv33dmp" path="res://sprites/NPCs/spr_kid_strip2.png" id="1_jjxy6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ulv7u"]
+atlas = ExtResource("1_jjxy6")
+region = Rect2(0, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ubvmj"]
+atlas = ExtResource("1_jjxy6")
+region = Rect2(32, 0, 32, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ulv7u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ubvmj")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

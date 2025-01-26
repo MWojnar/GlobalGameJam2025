@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" load_steps=4 format=3 uid="uid://dx45j0om8ybuk"]
+
+[ext_resource type="Texture2D" uid="uid://db2jjhcyiher2" path="res://sprites/NPCs/spr_man_strip2.png" id="1_fothi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ldcq"]
+atlas = ExtResource("1_fothi")
+region = Rect2(0, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bbb7x"]
+atlas = ExtResource("1_fothi")
+region = Rect2(32, 0, 32, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ldcq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bbb7x")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

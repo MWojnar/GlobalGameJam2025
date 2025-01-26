@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\playerBody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:playerBody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\talker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:talker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\speechbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:speechbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\alternatingtalker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:alternatingtalker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\playerbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:playerbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "playerBody.cs",
-              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\playerBody.cs",
-              "RelativeDocumentMoniker": "playerBody.cs",
-              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\playerBody.cs*",
-              "RelativeToolTip": "playerBody.cs*",
-              "ViewState": "AgIAABkAAAAAAAAAAAAYwDwAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AlternatingTalker.cs",
+              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\AlternatingTalker.cs",
+              "RelativeDocumentMoniker": "AlternatingTalker.cs",
+              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\AlternatingTalker.cs",
+              "RelativeToolTip": "AlternatingTalker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T05:57:46.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "player.cs",
-              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\player.cs",
-              "RelativeDocumentMoniker": "player.cs",
-              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\player.cs",
-              "RelativeToolTip": "player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T05:43:21.853Z",
+              "WhenOpened": "2025-01-25T22:20:17.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "speechBubble.cs",
-              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\speechBubble.cs",
-              "RelativeDocumentMoniker": "speechBubble.cs",
-              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\speechBubble.cs",
-              "RelativeToolTip": "speechBubble.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAABMAAAAAAAAAA==",
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T03:00:40.471Z",
+              "WhenOpened": "2025-01-25T20:20:35.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerBody.cs",
+              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\PlayerBody.cs",
+              "RelativeDocumentMoniker": "PlayerBody.cs",
+              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\PlayerBody.cs",
+              "RelativeToolTip": "PlayerBody.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T20:20:33.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpeechBubble.cs",
+              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\SpeechBubble.cs",
+              "RelativeDocumentMoniker": "SpeechBubble.cs",
+              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\SpeechBubble.cs",
+              "RelativeToolTip": "SpeechBubble.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAwwCMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T20:20:30.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Talker.cs",
+              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Talker.cs",
+              "RelativeDocumentMoniker": "Talker.cs",
+              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Talker.cs",
+              "RelativeToolTip": "Talker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T19:11:29Z",
               "EditorCaption": ""
             }
           ]

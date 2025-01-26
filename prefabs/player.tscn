@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=3 uid="uid://cckgte6di0gi3"]
 
-[ext_resource type="Script" path="res://playerBody.cs" id="1_dyote"]
+[ext_resource type="Script" path="res://PlayerBody.cs" id="1_dyote"]
 [ext_resource type="Texture2D" uid="uid://dtndrtbsfge3r" path="res://sprites/player/spr_cat_fall.png" id="2_2edgk"]
 [ext_resource type="Texture2D" uid="uid://iuup5itwvoff" path="res://sprites/player/spr_cat_stand.png" id="3_fuq7u"]
 [ext_resource type="Texture2D" uid="uid://dcmryd1wr3b23" path="res://sprites/player/spr_cat_jump.png" id="4_7vdxb"]
@@ -70,6 +70,7 @@ animations = [{
 }]
 
 [node name="Player" type="Node2D"]
+z_index = 1000
 position = Vector2(0, -150)
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
@@ -81,7 +82,11 @@ shape = SubResource("RectangleShape2D_3lx3l")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 sprite_frames = SubResource("SpriteFrames_klj21")
-animation = &"idle"
+animation = &"walk"
+frame = 1
+frame_progress = 0.996684
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 zoom = Vector2(2, 2)
+limit_top = -280
+limit_bottom = 0

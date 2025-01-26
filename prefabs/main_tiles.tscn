@@ -1,0 +1,44 @@
+[gd_scene load_steps=4 format=3 uid="uid://houc8lenqrk4"]
+
+[ext_resource type="Texture2D" uid="uid://5bu7pjrserry" path="res://tiles/ts_level_terrain.png" id="1_lamy4"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2jq1m"]
+texture = ExtResource("1_lamy4")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+0:6/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_6fyqn"]
+sources/0 = SubResource("TileSetAtlasSource_2jq1m")
+
+[node name="TileMapLayer" type="TileMapLayer"]
+tile_set = SubResource("TileSet_6fyqn")

@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" load_steps=4 format=3 uid="uid://df7bm1jg0i2x5"]
+
+[ext_resource type="Texture2D" uid="uid://d2c7fil44ts7p" path="res://sprites/NPCs/spr_dog_strip2.png" id="1_egn4g"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5p1i3"]
+atlas = ExtResource("1_egn4g")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3omvw"]
+atlas = ExtResource("1_egn4g")
+region = Rect2(32, 0, 32, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5p1i3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3omvw")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

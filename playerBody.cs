@@ -1,10 +1,12 @@
 using Godot;
+using Godot.Collections;
 using System;
 
-public partial class playerBody : CharacterBody2D
+public partial class PlayerBody : CharacterBody2D
 {
-	public const float Speed = 300.0f;
-	public const float JumpVelocity = -400.0f;
+	public const float Speed = 125.0f;
+	public const float JumpVelocity = -225.0f;
+	public const float HeldJumpTimeLimit = 0.26f;
 
 	private bool inAir = true;
 	private bool falling = true;
@@ -12,6 +14,7 @@ public partial class playerBody : CharacterBody2D
 	private bool walking = false;
 	private bool moving = false;
 	private AnimatedSprite2D animatedSprite;
+	private DateTime lastJump;
 
 	public override void _Ready()
 	{
@@ -29,14 +32,16 @@ public partial class playerBody : CharacterBody2D
 			velocity += GetGravity() * (float)delta;
 		}
 
-		if (Input.IsActionJustPressed("ui_accept") && IsOnFloor())
+		if (Input.IsActionPressed("ui_accept") && (IsOnFloor() || (DateTime.Now - lastJump).TotalSeconds < HeldJumpTimeLimit))
 		{
+			if (IsOnFloor())
+				lastJump = DateTime.Now;
 			velocity.Y = JumpVelocity;
 		}
 		inAir = !IsOnFloor();
 		falling = velocity.Y > 0;
 
-		Vector2 direction = Input.GetVector("ui_left", "ui_right", "ui_up", "ui_down");
+		Vector2 direction = new Vector2((Input.IsActionPressed("ui_left") ? -1 : 0) + (Input.IsActionPressed("ui_right") ? 1 : 0), 0);
 		if (direction != Vector2.Zero)
 		{
 			velocity.X = direction.X * Speed;
@@ -71,7 +76,6 @@ public partial class playerBody : CharacterBody2D
 
 		if (animatedSprite.Animation != desiredAnimation)
 			animatedSprite.Play(desiredAnimation);
-		System.Diagnostics.Trace.WriteLine(animatedSprite.Animation);
 
 		base._Process(delta);
 	}

@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://c17iuilj7twgn"]
+
+[ext_resource type="Script" path="res://Talker.cs" id="1_psoof"]
+[ext_resource type="Texture2D" uid="uid://db2jjhcyiher2" path="res://sprites/NPCs/spr_man_strip2.png" id="2_5wspf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sk7j0"]
+atlas = ExtResource("2_5wspf")
+region = Rect2(0, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0s62v"]
+atlas = ExtResource("2_5wspf")
+region = Rect2(32, 0, 32, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ttg77"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sk7j0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0s62v")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Talker" type="Node2D"]
+script = ExtResource("1_psoof")
+pauseBetweenDialogue = 1.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ttg77")

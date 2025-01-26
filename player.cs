@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public partial class player : Node2D
+public partial class Player : Node2D
 {
 	[Export]
 	public float gravity = 1.0f;

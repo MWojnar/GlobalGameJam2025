@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" load_steps=4 format=3 uid="uid://dh6cnk4mbvjlm"]
+
+[ext_resource type="Texture2D" uid="uid://35lqhb5kvxa8" path="res://sprites/NPCs/spr_woman_strip2.png" id="1_jfq0o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ltb2e"]
+atlas = ExtResource("1_jfq0o")
+region = Rect2(0, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rhmcl"]
+atlas = ExtResource("1_jfq0o")
+region = Rect2(32, 0, 32, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ltb2e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rhmcl")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
