@@ -71,7 +71,8 @@ public partial class Talker : Node2D
 
 	private void createSpeechBubble(string text)
 	{
-		GetParent().RemoveChild(speechBubble);
+		if (GetParent().HasNode(speechBubble?.Name.ToString()))
+			GetParent().RemoveChild(speechBubble);
 
 		speechBubble = (SpeechBubble)speechBubblePrefab.Instantiate();
 		speechBubble.animationSpeed = 15;

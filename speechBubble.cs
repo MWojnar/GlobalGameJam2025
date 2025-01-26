@@ -75,7 +75,7 @@ public partial class SpeechBubble : Node2D
 
 	public override void _Draw()
 	{
-		string currentText = text.Substring(0, textIndex);
+		string currentText = text.Substring(0, textIndex > text.Length ? text.Length : textIndex);
 		var bounds = font.GetMultilineStringSize(currentText, HorizontalAlignment.Left, maxWidth - gridWidth * 2, textSize);
 		width = (((int)bounds.X) / gridWidth) * gridWidth + gridWidth * 2;
 		height = (((int)bounds.Y) / gridHeight) * gridHeight + gridHeight * 2;
