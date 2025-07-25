@@ -1,7 +1,8 @@
-[gd_scene load_steps=49 format=4 uid="uid://bh2rjufm74vj3"]
+[gd_scene load_steps=50 format=4 uid="uid://bh2rjufm74vj3"]
 
 [ext_resource type="PackedScene" uid="uid://houc8lenqrk4" path="res://prefabs/main_tiles.tscn" id="2_flscu"]
 [ext_resource type="PackedScene" uid="uid://cckgte6di0gi3" path="res://prefabs/player.tscn" id="2_hlakv"]
+[ext_resource type="Script" path="res://PauseManager.cs" id="2_pausemgr"]
 [ext_resource type="Script" path="res://prefabs/WatchForExit.cs" id="2_vx0dl"]
 [ext_resource type="PackedScene" uid="uid://c17iuilj7twgn" path="res://prefabs/talker.tscn" id="3_bjxsq"]
 [ext_resource type="SpriteFrames" uid="uid://dx45j0om8ybuk" path="res://spriteFrames/NPCs/man.tres" id="4_6yy0r"]
@@ -166,6 +167,9 @@ size = Vector2(29, 20)
 [node name="Player" parent="." instance=ExtResource("2_hlakv")]
 position = Vector2(-152, -56)
 script = ExtResource("2_vx0dl")
+
+[node name="PauseManager" type="Node" parent="."]
+script = ExtResource("2_pausemgr")
 
 [node name="TileMapLayer" parent="." instance=ExtResource("2_flscu")]
 position = Vector2(0, -16)

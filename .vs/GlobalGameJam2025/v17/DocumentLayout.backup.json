@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\playerbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:playerbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\titlescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:titlescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\prefabs\\watchforexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:prefabs\\watchforexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,24 +47,12 @@
       "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\playerbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:playerbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\alternatingtalker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:alternatingtalker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\mainmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:mainmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\titlescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:titlescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +62,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "PauseManager.cs",
+              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\PauseManager.cs",
+              "RelativeDocumentMoniker": "PauseManager.cs",
+              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\PauseManager.cs",
+              "RelativeToolTip": "PauseManager.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T04:00:25.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "PauseMenu.cs",
+              "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\PauseMenu.cs",
+              "RelativeToolTip": "PauseMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T03:58:56.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Dog.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Dog.cs",
               "RelativeDocumentMoniker": "Dog.cs",
@@ -66,12 +100,11 @@
               "RelativeToolTip": "Dog.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAewFQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T19:44:58.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T19:44:58.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "VictoryAudio.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\VictoryAudio.cs",
               "RelativeDocumentMoniker": "VictoryAudio.cs",
@@ -79,12 +112,11 @@
               "RelativeToolTip": "VictoryAudio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T19:30:22.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T19:30:22.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "WatchForExit.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\prefabs\\WatchForExit.cs",
               "RelativeDocumentMoniker": "prefabs\\WatchForExit.cs",
@@ -92,12 +124,11 @@
               "RelativeToolTip": "prefabs\\WatchForExit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T18:16:38.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T18:16:38.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MainMusic.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\MainMusic.cs",
               "RelativeDocumentMoniker": "MainMusic.cs",
@@ -109,19 +140,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "TitleScreen.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\TitleScreen.cs",
               "RelativeDocumentMoniker": "TitleScreen.cs",
               "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\TitleScreen.cs",
               "RelativeToolTip": "TitleScreen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T17:29:06.492Z"
+              "WhenOpened": "2025-01-26T17:29:06.492Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Vase.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Vase.cs",
               "RelativeDocumentMoniker": "Vase.cs",
@@ -129,12 +161,11 @@
               "RelativeToolTip": "Vase.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAIAwwEsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T15:48:37.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T15:48:37.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "SpeechBubble.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\SpeechBubble.cs",
               "RelativeDocumentMoniker": "SpeechBubble.cs",
@@ -142,12 +173,11 @@
               "RelativeToolTip": "SpeechBubble.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAQwE0AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T04:18:09.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T04:18:09.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Talker.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Talker.cs",
               "RelativeDocumentMoniker": "Talker.cs",
@@ -155,36 +185,36 @@
               "RelativeToolTip": "Talker.cs",
               "ViewState": "AgIAAHYAAAAAAAAAAAAlwH8AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T04:06:16.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T04:06:16.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "PlayerBody.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\PlayerBody.cs",
               "RelativeDocumentMoniker": "PlayerBody.cs",
               "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\PlayerBody.cs",
               "RelativeToolTip": "PlayerBody.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwFkAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowEYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T04:06:16.885Z"
+              "WhenOpened": "2025-01-26T04:06:16.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
               "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T04:06:16.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AlternatingTalker.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\AlternatingTalker.cs",
               "RelativeDocumentMoniker": "AlternatingTalker.cs",

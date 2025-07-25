@@ -1,0 +1,75 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwi5o4cxy8cq8"]
+
+[ext_resource type="Script" path="res://PauseMenu.cs" id="1_1a2bc"]
+
+[node name="PauseMenu" type="CanvasLayer"]
+process_mode = 2
+layer = 100
+script = ExtResource("1_1a2bc")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.5)
+
+[node name="CenterContainer" type="CenterContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="Control/CenterContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/CenterContainer/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TitleLabel" type="Label" parent="Control/CenterContainer/Panel/VBoxContainer"]
+layout_mode = 2
+text = "GAME PAUSED"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="Control/CenterContainer/Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="ContinueButton" type="Button" parent="Control/CenterContainer/Panel/VBoxContainer"]
+layout_mode = 2
+text = "Continue"
+
+[node name="ExitToMenuButton" type="Button" parent="Control/CenterContainer/Panel/VBoxContainer"]
+layout_mode = 2
+text = "Exit to Menu"
+
+[node name="ExitGameButton" type="Button" parent="Control/CenterContainer/Panel/VBoxContainer"]
+layout_mode = 2
+text = "Exit Game"
+
+[connection signal="pressed" from="Control/CenterContainer/Panel/VBoxContainer/ContinueButton" to="." method="_on_continue_button_pressed"]
+[connection signal="pressed" from="Control/CenterContainer/Panel/VBoxContainer/ExitToMenuButton" to="." method="_on_exit_to_menu_button_pressed"]
+[connection signal="pressed" from="Control/CenterContainer/Panel/VBoxContainer/ExitGameButton" to="." method="_on_exit_game_button_pressed"]
