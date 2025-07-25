@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\prefabs\\watchforexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:prefabs\\watchforexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\speechbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:speechbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:alternatingtalker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\prefabs\\watchforexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:prefabs\\watchforexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|c:\\users\\mr. lethargic\\documents\\globalgamejam2025\\mainmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E4B98D9-512B-4E56-B81E-41843A36CB87}|GlobalGameJam2025.csproj|solutionrelative:mainmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Dog.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Dog.cs",
               "RelativeDocumentMoniker": "Dog.cs",
@@ -71,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "VictoryAudio.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\VictoryAudio.cs",
               "RelativeDocumentMoniker": "VictoryAudio.cs",
@@ -84,15 +84,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "WatchForExit.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\prefabs\\WatchForExit.cs",
               "RelativeDocumentMoniker": "prefabs\\WatchForExit.cs",
               "ToolTip": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\prefabs\\WatchForExit.cs",
               "RelativeToolTip": "prefabs\\WatchForExit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T18:16:38.999Z"
+              "WhenOpened": "2025-01-26T18:16:38.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -120,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Vase.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Vase.cs",
               "RelativeDocumentMoniker": "Vase.cs",
@@ -133,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SpeechBubble.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\SpeechBubble.cs",
               "RelativeDocumentMoniker": "SpeechBubble.cs",
@@ -146,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Talker.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Talker.cs",
               "RelativeDocumentMoniker": "Talker.cs",
@@ -159,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PlayerBody.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\PlayerBody.cs",
               "RelativeDocumentMoniker": "PlayerBody.cs",
@@ -171,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
@@ -183,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AlternatingTalker.cs",
               "DocumentMoniker": "C:\\Users\\Mr. Lethargic\\Documents\\globalgamejam2025\\AlternatingTalker.cs",
               "RelativeDocumentMoniker": "AlternatingTalker.cs",
